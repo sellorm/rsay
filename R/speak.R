@@ -33,6 +33,6 @@ speak <- function(input, voice) {
     }
   }
 
-  cleaned_input <- gsub(";", "", gsub(" -", " ", gsub('"', "", input)))
+  cleaned_input <- gsub(";", "", gsub(" -", " ", gsub('"', "", gsub("'", "", input))))
   system2("say", paste(voice_option, cleaned_input))
 }
