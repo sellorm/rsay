@@ -5,6 +5,8 @@
 #'
 #' The complete list of voices can be found in available_voices
 #'
+#' @export
+#'
 #' @examples
 #' \dontrun{
 #' speak("hello world")
