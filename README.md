@@ -4,6 +4,8 @@ rsay makes R and your Mac speak!
 
 It's a simple R wrapper around the MacOS command line utility, `say`.
 
+**Note:** MacOS only, sorry!
+
 ## Installation
 
 ``` r
