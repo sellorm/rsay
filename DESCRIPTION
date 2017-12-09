@@ -1,0 +1,16 @@
+Package: rsay
+Type: Package
+Title: Lets R on your Mac speak
+Version: 0.1.0
+Authors@R: c(
+    person("Mark", "Sellors", , "rstuff@5vcc.com", c("aut", "cre"))
+    )
+Description: Provides a simple wrapper around the MacOS command line utility, 'say'.
+    Sorry, this one is MacOS only.
+URL: https://github.com/sellorm/rsay
+BugReports: https://github.com/sellorm/rsay/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends: R (>= 3.0.0)
